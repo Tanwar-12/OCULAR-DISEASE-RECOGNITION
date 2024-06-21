@@ -1,4 +1,21 @@
 # PROJECT TITLE : OCULAR DISEASE RECOGNITION USING DEEP LEARNING
+
+## THE PROJECT INVOLVES SEVERAL KEY STEPS:
+
+* Introduction: Overview of ocular disease recognition and its significance.
+  
+* Data Summary: Description of the dataset used, including its source, structure, and classes.
+  
+* Data Preprocessing: Steps to prepare the data for model training, including resizing, normalization, augmentation, and splitting.
+  
+* Model Implementation: Utilization of pre-trained deep learning models (VGG19 and ResNet50) for ocular disease recognition.
+  
+* Training: Training the models on the preprocessed data.
+  
+* Evaluation: Evaluating the performance of the trained models on validation data, including metrics like accuracy, loss, and classification reports.
+  
+* Model Comparison: Comparing the performance of VGG19 and ResNet50 models.
+  
 ## 1.INTRODUCTION:
 _Ocular diseases, such as glaucoma, diabetic retinopathy, cataracts, and age-related macular degeneration, are major causes of visual impairment and blindness worldwide. Early detection and timely treatment are critical for preventing vision loss and improving patient outcomes. Traditionally, the diagnosis of these conditions has relied heavily on manual examination by trained ophthalmologists using various imaging modalities like fundus photography, optical coherence tomography (OCT), and fluorescein angiography._
 
