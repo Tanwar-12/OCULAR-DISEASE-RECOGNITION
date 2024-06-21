@@ -51,10 +51,15 @@ _This dataset is meant to represent ‘‘real-life’’ set of patient informa
 
 ## 3.TASK : MULTICLASS CLASSIFICATION
 
-### 4.AIM OF PROJECT:
+_This means that the objective is to classify input images into one of multiple classes or categories of ocular diseases. In this case, the dataset contains images of eyes with various diseases such as glaucoma, diabetic retinopathy, cataracts, age-related macular degeneration, and others._
+
+## 4.AIM OF PROJECT:
 _The primary objective of the ocular disease recognition project is to develop a robust AI-based system capable of accurately identifying various ocular diseases from medical images_.
 
 ## 5. PYTHON IMPLIMENTATION
+
+_The Python implementation for this project involves using various libraries and frameworks for deep learning and data preprocessing._
+
 * Import the necessary libraries : Pandas,Numpy...
   
 ## 6. LOAD THE DATA
@@ -73,7 +78,18 @@ _The primary objective of the ocular disease recognition project is to develop a
 
 ### 9.USE VGG19 PRE-TRAINED MODEL
 
+_Load the VGG19 model with pre-trained weights from the ImageNet dataset.
+Exclude the top (fully connected) layers, as they will be replaced with custom layers for the ocular disease recognition task._
+
 ## 10.COMPILE AND TRAIN VGG19 MODEL
+
+* _Compile the VGG19 model with appropriate parameters such as optimizer, loss function, and evaluation metrics.
+For multiclass classification, categorical cross-entropy is commonly used as the loss function, and Adam optimizer is a popular choice.
+Accuracy is a typical metric for evaluation._
+
+* Train the compiled model using the preprocessed training data.
+Specify the number of epochs (iterations over the entire dataset) and batch size (number of samples per gradient update).
+Utilize the fit method to start the training process.
 
  ### 11.CLASSIFICATION REPORT:
  print(classification_report(y_test,y_pred1))
